@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: #F5F8FF; */
     font-family: 'Raleway';
 }
 
@@ -132,16 +131,17 @@
     padding: 116px 0px;
 }
 
-.users-container h1{
+.users-container h1 {
     margin-bottom: 50px;
 }
+
 .users-review {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
-    margin: 0 auto;        
-    gap: 20px;        
+    margin: 0 auto;
+    gap: 20px;
 }
 
 
@@ -175,12 +175,12 @@
     color: #8987A1;
 }
 
-.focus-container{
-      background-color: #F5F8FF;
+.focus-container {
+    background-color: #F5F8FF;
     padding: 116px 0px;
 }
 
-.focus-section{
+.focus-section {
     background-color: #FFFFFF;
     margin: auto;
     padding: 71px 150px;
@@ -188,18 +188,87 @@
     border-radius: 14px;
 }
 
-.webflow-big img{
+.webflow-big img {
     border-radius: 48px;
 }
 
-.control{
+.control {
     text-align: center;
 }
 
-.control p, .btn{
+.control p,
+.btn {
     margin-top: 20px;
 }
 
-.control .btn{
+.control .btn {
     margin-bottom: 20px;
+}
+
+.contact-container {
+    background-color: #f5f7ff;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-wrapper {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left h1 {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+.contact-right {
+    width: 40%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'inter';
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 20px;
+    margin-bottom: 0;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-family: 'inter';
+    width: 100%;
+}
+
+.contact-form textarea {
+    min-height: 100px;
+
+}
+
+.contact-form .btn-1 {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 19px 101px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
 }
