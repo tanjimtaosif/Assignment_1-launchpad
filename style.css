@@ -87,7 +87,6 @@
 
 .productive-container {
     background-color: #F5F8FF;
-    padding: 0pxpx 0px;
 }
 
 .productive {
@@ -174,4 +173,33 @@
 
 .name {
     color: #8987A1;
+}
+
+.focus-container{
+      background-color: #F5F8FF;
+    padding: 116px 0px;
+}
+
+.focus-section{
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 71px 150px;
+    max-width: 1140px;
+    border-radius: 14px;
+}
+
+.webflow-big img{
+    border-radius: 48px;
+}
+
+.control{
+    text-align: center;
+}
+
+.control p, .btn{
+    margin-top: 20px;
+}
+
+.control .btn{
+    margin-bottom: 20px;
 }
