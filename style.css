@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
     /* background-color: #F5F8FF; */
     font-family: 'Raleway';
 }
@@ -41,9 +43,36 @@
     border: 2px solid;
     text-align: center;
 }
-.cool .btn{
+
+.cool .btn {
     margin-top: 37px;
 }
-.cool h1{
+
+.cool h1 {
     font-size: 65px;
+}
+
+.action {
+    background-color: #F5F8FF;
+    padding: 116px 0px;
+
+}
+
+.action-main {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focused {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+}
+
+.webflow img {
+    border-radius: 30px;
 }
