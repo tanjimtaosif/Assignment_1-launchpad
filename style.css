@@ -49,6 +49,12 @@
     font-size: 65px;
 }
 
+.webflow img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .action {
     background-color: #F5F8FF;
     padding: 116px 0px;
@@ -131,9 +137,9 @@
     padding: 116px 0px;
 }
 
-.users-container h1 {
+/* .users-container h1 {
     margin-bottom: 50px;
-}
+} */
 
 .users-review {
     display: flex;
@@ -154,10 +160,15 @@
 
 .head {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .review-text {
     margin-top: 24px;
+}
+
+.review-text h1 {
+    margin-bottom: 10px;
 }
 
 .user-info {
@@ -177,7 +188,6 @@
 
 .focus-container {
     background-color: #F5F8FF;
-    padding: 116px 0px;
 }
 
 .focus-section {
@@ -271,4 +281,50 @@
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
+}
+
+.footer {
+    max-width: 531px;
+    margin: auto;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 100px 0px 100px 0px;
+}
+
+.big-logo {
+    font-family: 'inter';
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'inter';
+    color: #8987A1
+}
+
+.navlink {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8987A1;
+    font-family: 'inter', sans-serif;
 }
