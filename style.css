@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    /* background-color: #F5F8FF; */
+    font-family: 'Raleway';
+}
+
+.hero-bg {
+    background-image: url(Assets/Hero-bg.png);
+    padding-bottom: 200px;
+}
+
+.hero-section {
+    max-width: 1140px;
+    margin: auto;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.logo {
+    font-family: 'inter';
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+
+.btn {
+    padding: 12px 36px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.cool {
+    padding-top: 158px;
+    max-width: 1140px;
+    margin: auto;
+    border: 2px solid;
+    text-align: center;
+}
+.cool .btn{
+    margin-top: 37px;
+}
+.cool h1{
+    font-size: 65px;
+}
