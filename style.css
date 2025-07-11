@@ -127,3 +127,51 @@
     color: #000000;
     opacity: 50%;
 }
+
+.users-container {
+    background-color: #F5F8FF;
+    padding: 116px 0px;
+}
+
+.users-container h1{
+    margin-bottom: 50px;
+}
+.users-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;        
+    gap: 20px;        
+}
+
+
+.review-card {
+    padding: 24px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.head {
+    text-align: center;
+}
+
+.review-text {
+    margin-top: 24px;
+}
+
+.user-info {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img {
+    border-radius: 50%;
+}
+
+.name {
+    color: #8987A1;
+}
