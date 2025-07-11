@@ -14,7 +14,6 @@
 .hero-section {
     max-width: 1140px;
     margin: auto;
-    border: 2px solid;
     display: flex;
     justify-content: space-between;
     padding: 50px 0px;
@@ -40,7 +39,6 @@
     padding-top: 158px;
     max-width: 1140px;
     margin: auto;
-    border: 2px solid;
     text-align: center;
 }
 
@@ -73,6 +71,59 @@
     gap: 23px;
 }
 
+.focused h1 {
+    font-size: 42px;
+}
+
+.focused p {
+    color: #252432;
+    opacity: 50%;
+    font-size: 24px;
+}
+
 .webflow img {
     border-radius: 30px;
+}
+
+.productive-container {
+    background-color: #F5F8FF;
+    padding: 0pxpx 0px;
+}
+
+.productive {
+    max-width: 1140px;
+    margin: auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+    border-radius: 20px;
+}
+
+.productive h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calculation {
+    text-align: center;
+}
+
+.calculation .wrap {
+    font-family: 'inter';
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.insight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculation .stat {
+    font-family: 'inter';
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
 }
