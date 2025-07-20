@@ -34,6 +34,15 @@
     border-radius: 10px;
 }
 
+/* Hover effect for all .btn buttons */
+.btn:hover {
+    background-color: #3a34cc;
+    /* Darker purple */
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
 .cool {
     padding-top: 158px;
     max-width: 1140px;
@@ -281,6 +290,15 @@
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
+}
+
+/* Hover effect for .btn-1 specifically */
+.btn-1:hover {
+    background-color: #3a34cc;
+    /* Same color for consistency */
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 .footer {
